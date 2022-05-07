@@ -1,0 +1,14 @@
+.relative{
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 119px;
+    background-color: #ffffff;
+    margin: 0 15.5%;
+    margin-top: 24px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+}
+.nome__usuario{
+    overflow: hidden;
+}

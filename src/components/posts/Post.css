@@ -1,0 +1,104 @@
+.post{
+    width: 614px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 0px -1px 24px;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+h3{
+    padding-left: 20px;
+}
+.post__header div{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+.foto_perfil_post{
+    width: 36px;
+    height: 36px;
+
+    border-radius:50%;
+}
+.post__image{
+    width: 612px;
+}
+div .icones{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    width: 120px;
+    height: 25px;
+    justify-content: space-around;
+}
+.menuItem{
+    width: 20px;
+    height: 20px;
+}
+.icons-post{
+    width: 24px;
+    height: 24px;
+}
+.icon-fav{
+    display:flex;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.post__text, .post__vercoments, .post__horas{
+    padding: 0px 16px;
+}
+.post__vercoments, .post__horas{
+    color: #8e8e8e;
+}
+.post__horas{
+    font-size: 10px;
+    padding: 0px 0px 0px 16px;
+    margin: 0px 0px 16px;
+}
+.post__comentar{
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    height: 53px;
+}
+.post__iconComent{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    padding: 20px 16px 8px;
+}
+.form__coments{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.post__coments{
+    width: 80%;
+    padding-top: 16px;
+    border-style: none;
+}
+.post__coments:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.btn__publicar__escuro{
+    padding-top: 16px;
+    color: #0094f650;
+    font-weight: 600;
+}
+
